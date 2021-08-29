@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+/*Main css8*/
+.header-part{
+    width: 600px;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    background: #f7f9ff;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.default {
+    text-align: center;
+    margin-top: 102px;
+}
+.default ul {
+    list-style: none;
+}
+.default ul li {
+    display: inline-block;
+    font-size: 60px;
+}
+.default ul li:nth-child(1){
+    color: limegreen;
+    font-weight: 500;
+}
+.default ul li:nth-child(2){
+    color: red;
+    font-weight: 500;
+
+}
+.default ul li:nth-child(3){
+    color: rgb(231, 231, 42);
+    font-weight: 500;
+
+}
+.default ul li:nth-child(4){
+    color: limegreen;
+    font-weight: 500;
+
+}
+.default ul li:nth-child(5){
+    color: green;
+    font-weight: 500;
+
+}
+.default ul li:nth-child(6){
+    color: red;
+    font-weight: 500;
+
+}
+.header-top {
+    padding-bottom: 50px;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, .6);
+}
+.h-text {
+    padding-top: 17px;
+}
+.h-text h3 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.h-text h5 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+input[type="email"] {
+    padding: 16px;
+    font-size: 18px;
+    width: 253px;
+    border-radius: 6px;
+}
+a.next {
+    display: inline-block;
+    padding: 13px;
+    background: #4085F3;
+    width: 264px;
+    margin-top: 30px;
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: .5s;
+}
+a.next:hover{
+    color: white;
+    background: black;
+}
+.help {
+    display: inline-block;
+    font-size: 19px;
+    color: green;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 203px;
+}
+.help:hover{
+    text-decoration: underline;
+}
+a.creat {
+    display: inline-block;
+    font-size: 24px;
+    margin-top: 45px;
+    color: #4085f3;
+}
+a.creat:hover{
+    text-decoration: underline;
+}
+span {
+    display: inline-block;
+    font-size: 21px;
+    color: #767676;
+    margin-top: 10px;
+}
+.header{
+    width: 600px;
+    margin: auto;
+}
+.footer.clear {
+    margin-top: 53px;
+}
+.f-menu a {
+    display: inline-block;
+    padding: 0px 8px;
+    font-size: 18px;
+}
+.f-menu a:hover{
+    text-decoration: underline;
+}
